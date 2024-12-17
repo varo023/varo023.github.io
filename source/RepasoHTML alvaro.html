@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Repaso HTML</title>
+    <style>
+        #p1 {
+            font-weight: bold;
+            color: magenta;
+        }
+        #p2 {
+            font-weight: lighter;
+            color: black;
+        }
+        p {
+            font-size: 18px;
+            color: blue;
+        }
+        p span {
+            background-color: violet;
+        }
+        .parrafo {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: pink;
+        }
+    </style>
+</head>
+<body>
+    <p id="p1" class="parrafo">
+        En un documento HTML, <span>los selectores de clase</span> buscan un elemento basado en el 
+        <span style="text-decoration: underline;">de su atributo class.</span> El atributo class está 
+        definido como una lista de elementos separados por espacio, y uno de esos elementos debe 
+        coincidir exactamente con el nombre de clase dado en el selector.
+    </p>
+    <p style="color: red;" class="parrafo">
+        En un documento HTML, los selectores de clase buscan un elemento basado en el contenido de su 
+        atributo class. El atributo class está definido como una lista de elementos separados por espacio, 
+        y uno de esos elementos debe coincidir exactamente con el nombre de clase dado en el selector.
+    </p>
+    <span class="parrafo">los selectores de clase</span>
+    <ul>
+        <li>Provincias de Extremadura</li>
+        <li>Extremadura</li>
+        <li>Cáceres</li>
+    </ul>
+</body>
+</html>
